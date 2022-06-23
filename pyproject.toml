@@ -1,0 +1,20 @@
+[project]
+name = "smtfe"
+version = "0.1.0"
+description = "SMT front end"
+authors = [
+    {name = "John Vandenberg", email = "jayvdb@gmail.com"},
+]
+dependencies = [
+    "PySMT>=0.9.5",
+    "shortuuid>=1.0.9",
+]
+requires-python = ">=3.6"
+readme = "README.md"
+license = {text = "MIT"}
+
+[tool.pdm]
+
+[build-system]
+requires = ["pdm-pep517>=0.12.0"]
+build-backend = "pdm.pep517.api"
