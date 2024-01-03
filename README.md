@@ -1,3 +1,3 @@
-# satirize
+# smtfe
 
 SAT helper
